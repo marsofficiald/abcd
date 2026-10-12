@@ -1,0 +1,45 @@
+```html
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>картка товару</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100 flex justify-center items-center min-h-screen">
+
+    <div class="bg-white rounded-xl shadow-lg p-4 w-80">
+
+        <div class="relative">
+            <img
+                src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800"
+                alt="червоні кросівки"
+                class="w-full aspect-video object-cover rounded-lg"
+            >
+
+            <span class="absolute top-2 left-2 bg-green-500 text-white px-3 py-1 rounded-full text-sm">
+                Новинка
+            </span>
+        </div>
+
+        <h2 class="text-xl font-bold mt-4">спортивні кросівки</h2>
+
+        <p class="text-gray-500 text-sm mt-2">
+            зручні кросівки для щоденного використання
+        </p>
+
+        <div class="flex items-center gap-3 mt-4">
+            <span class="text-gray-400 line-through">2500 грн</span>
+            <span class="text-red-600 text-xl font-bold">1999 грн</span>
+        </div>
+
+        <button class="bg-blue-600 text-white w-full py-2 rounded-lg mt-4 hover:bg-blue-700">
+            В кошик
+        </button>
+
+    </div>
+
+</body>
+</html>
+```
